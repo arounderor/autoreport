@@ -3,10 +3,10 @@ import re
 import time
 import os
 ###########用户需要更改的部分###############
-#your_name = os.environ["YOUR_NAME"]
-your_name = "whz19376238"
-#your_pwd = os.environ["YOUR_PWD"]
-your_pwd = "whz08070011"
+your_name = os.environ["YOUR_NAME"]
+#your_name = "whz19376238"
+your_pwd = os.environ["YOUR_PWD"]
+#your_pwd = "whz08070011"
 #wechat_key = os.environ["WECHAT_KEY"]
 form_data = os.environ["FORM_DATA"]
 ###########用户需要更改的部分###############
