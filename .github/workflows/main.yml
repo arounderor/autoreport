@@ -4,6 +4,7 @@ on:
   workflow_dispatch: # 手动触发
   schedule: 
     - cron: '0 9 * * *' # 北京时间17点00分
+    - cron: '0 10 * * *'#北京时间18点再来一遍
 jobs: 
   check: 
     runs-on: ubuntu-latest
